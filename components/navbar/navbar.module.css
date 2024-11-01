@@ -1,0 +1,29 @@
+.navbar {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.linkContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  box-shadow: 2px 2px 3px darkgreen;
+}
